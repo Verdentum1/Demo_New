@@ -13,7 +13,7 @@ public class Test6 {
 		System.setProperty("webdriver.chrome.driver", "D:\\salman\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
-		Thread.sleep(3000);
+		Thread.sleep(3);
 		driver.get("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html");
 		Thread.sleep(3000);
 		WebElement e=driver.findElement(By.xpath("//*[@class='form-control']"));
