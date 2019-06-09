@@ -9,8 +9,8 @@ public class Test9
      // Methods
      public void display()
      {
-    	 System.out.println(a);
     	 System.out.println(b);
+    	 System.out.println(a);
      }
      public void add()
      {
